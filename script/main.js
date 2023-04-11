@@ -114,7 +114,9 @@ const page = `<div class="container">
 
 document.body.addEventListener("click", handleclick, {once:true});
 
-function handleclick() {
+function handleclick(e) {
+  e.preventDefault();
+  e.stopPropagation();
   
   document.querySelector('audio').play();
   
