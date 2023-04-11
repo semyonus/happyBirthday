@@ -1,7 +1,3 @@
-document.onclick = () => {
-    document.querySelector('audio').play();
-}
-
 // Import the data to customize and insert them into page
 const fetchData = () => {
   fetch("customize.json")
