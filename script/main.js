@@ -112,7 +112,9 @@ const page = `<div class="container">
 </div>
 </div>`
 
-document.onclick = () => {
+document.body.addEventListener("click", handleclick, {once:true});
+
+function handleclick() {
   this.onclick = null;
   
   document.querySelector('audio').play();
