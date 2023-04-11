@@ -110,11 +110,7 @@ const page = `<div class="container">
   <p id="replay" data-node-name="replayText">Or click, if you want to watch it again.</p>
   <p class="last-smile" data-node-name="outroSmiley">:)</p>
 </div>
-</div>
-
-<audio autoplay style="display: none;">
-  <source src='./media/chajjkovskijj-vals-cvetov.mp3' type='audio/mp3'/>
-</audio>`
+</div>`
 
 document.onclick = () => {
   document.querySelector('audio').play();
