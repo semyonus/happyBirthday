@@ -116,7 +116,7 @@ document.onclick = () => {
   document.querySelector('audio').play();
   
   const body = document.querySelector('body');
-  body.innerHTML = page;
+  body.innerHTML = page + body.innerHTML;
 
   // Import the data to customize and insert them into page
   const fetchData = () => {
