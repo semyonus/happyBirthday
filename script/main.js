@@ -114,9 +114,8 @@ const page = `<div class="container">
 
 document.body.addEventListener("click", handleclick, {once:true});
 
-function handleclick(e) {
+function handleclick() {
   
-  document.querySelector('#delete').disabled = true;
   document.querySelector('audio').play();
   
   const body = document.querySelector('body');
