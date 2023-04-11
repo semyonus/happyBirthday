@@ -112,7 +112,15 @@ const page = `<div class="container">
 </div>
 </div>`
 
+let flag = flase;
+
 document.onclick = () => {
+  if (flag) {
+    return;
+  }
+  
+  flag = true;
+  
   document.querySelector('audio').play();
   
   const body = document.querySelector('body');
