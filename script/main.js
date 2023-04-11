@@ -1,8 +1,6 @@
 document.onclick = () => {
     document.querySelector('audio').play();
-}
-
-// Import the data to customize and insert them into page
+    // Import the data to customize and insert them into page
 const fetchData = () => {
   fetch("customize.json")
     .then(data => data.json())
@@ -308,3 +306,4 @@ const animationTimeline = () => {
 
 // Run fetch and animation in sequence
 fetchData();
+}
