@@ -112,7 +112,7 @@ const page = `<div class="container">
 </div>
 </div>`
 
-document.body.addEventListener("click", handleclick, {once:true});
+document.addEventListener("click", handleclick, {once:true});
 
 function handleclick() {
   
