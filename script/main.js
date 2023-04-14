@@ -297,7 +297,7 @@ function handleclick() {
       )
       .staggerFrom(
         ".idea-6 span",
-        0.8,
+        1.8,
         {
           scale: 3,
           opacity: 0,
@@ -308,14 +308,14 @@ function handleclick() {
       )
       .staggerTo(
         ".idea-6 span",
-        0.8,
+        1.8,
         {
           scale: 3,
           opacity: 0,
           rotation: -15,
           ease: Expo.easeOut
         },
-        1.2,
+        0.2,
         "+=1"
       )
       .staggerFromTo(
