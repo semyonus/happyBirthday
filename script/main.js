@@ -315,7 +315,7 @@ function handleclick() {
           rotation: -15,
           ease: Expo.easeOut
         },
-        0.2,
+        1.2,
         "+=1"
       )
       .staggerFromTo(
